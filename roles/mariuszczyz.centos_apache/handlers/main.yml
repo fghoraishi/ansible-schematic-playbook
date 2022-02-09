@@ -1,8 +1,0 @@
----
-# handlers file for mariuszczyz.centos-apache
-
-- name: restart apache
-  service:
-    name: httpd
-    state: restarted
-  listen: restart apache
